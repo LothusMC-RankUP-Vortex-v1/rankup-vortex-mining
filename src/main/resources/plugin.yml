@@ -1,0 +1,7 @@
+name: VortexMining
+version: 1.0
+main: br.net.rankup.mining.MiningPlugin
+authors: [zRomaGod_]
+depend:
+  - PlaceholderAPI
+  - Multiverse-Core

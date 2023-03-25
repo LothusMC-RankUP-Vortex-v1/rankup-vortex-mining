@@ -1,0 +1,117 @@
+Database:
+  IP: 127.0.0.1:3306
+  Database: rankup
+  User: root
+  Password: ""
+
+drops:
+  pedra:
+    price: 10.0
+    indentifier: '1:0'
+
+bonus:
+  mvpplus:
+    friendly-name: '§6MVP§e+'
+    permission: 'valhalla.drops.bonus.mvpplus'
+    bonus-value: 25
+  mvp:
+    friendly-name: '§bMVP'
+    permission: 'valhalla.drops.bonus.mvp'
+    bonus-value: 20
+  vipplus:
+    friendly-name: '§9VIP§c+'
+    permission: 'valhalla.drops.bonus.vipplus'
+    bonus-value: 15
+  vip:
+    friendly-name: '§3VIP'
+    permission: 'valhalla.drops.bonus.vip'
+    bonus-value: 10
+
+classes:
+  0:
+    friendly-name: '&cDefault'
+    armor-color: "126,0,0"
+    indentifier: 1
+    bonus:
+      multiplier: 2
+    price:
+      coins: 100000
+      rubis: 1000000
+
+private-mine-rewards:
+  1:
+    friendly-name: '1.000 de Cash'
+    chance: 1.5
+    command: 'cheques give <player> cash 1000'
+  2:
+    friendly-name: '250K de Coins'
+    chance: 3.5
+    command: 'cheques give <player> coins 250000'
+
+
+mine-rewards:
+  1:
+    friendly-name: '1.000 de Cash'
+    chance: 1.5
+    command: 'cheques give <player> cash 1000'
+  2:
+    friendly-name: '250K de Coins'
+    chance: 3.5
+    command: 'cheques give <player> coins 250000'
+
+enchantments:
+  FORTUNE:
+    max-level: 20000
+    chance: 100
+    base-price: 1400
+    increment-price: 525
+  EXPLOSIVE:
+    max-level: 10000
+    chance: 0.0002
+    base-price: 700
+    increment-price: 225
+  PERFORATOR:
+    max-level: 15000
+    chance: 0.00015
+    base-price: 1000
+    increment-price: 600
+  LASER:
+    max-level: 10000
+    chance: 0.00075
+    base-price: 600
+    increment-price: 185
+  TANKER:
+    max-level: 20000
+    chance: 0.0001
+    base-price: 800
+    increment-price: 550
+  LOCKSMITH:
+    max-level: 5000
+    chance: 0.0007
+    base-price: 600
+    increment-price: 325
+  JEWELLER:
+    max-level: 7500
+    chance: 100
+    base-price: 2850
+    increment-price: 1950
+  SPEED:
+    max-level: 1000
+    chance: 0.015
+    base-price: 300
+    increment-price: 75
+  NUKER:
+    max-level: 25000
+    chance: 0.000003
+    base-price: 2750
+    increment-price: 1900
+  DRAWER:
+    max-level: 5000
+    chance: 0.00005
+    base-price: 2000
+    increment-price: 1050
+  LIMITER:
+    max-level: 7500
+    chance: 0.00003
+    base-price: 2200
+    increment-price: 1750
